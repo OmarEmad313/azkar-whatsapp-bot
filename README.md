@@ -77,20 +77,6 @@ On Windows, use the provided batch script:
 
 start_scheduler.bat
 
-### **Monitor the Scheduler**
-
-Check if the scheduler is running:
-
-python monitor_scheduler.py
-
-To view recent logs:
-
-python monitor_scheduler.py --logs 20
-
-To terminate the scheduler:
-
-python monitor_scheduler.py --kill
-
 ## **Configuration Reference**
 
 The bot is configured using config.ini:
@@ -173,14 +159,6 @@ To apply the license:
 2. Add the standard MIT License text with your copyright information
 3. Include license headers in source files
 
-## **Testing**
-
-Run tests with:
-
-python -m unittest discover tests
-
-Ensure WhatsApp authentication is set up before running integration tests.
-
 ## **Troubleshooting**
 
 ### **Common Issues**
@@ -202,19 +180,8 @@ Ensure WhatsApp authentication is set up before running integration tests.
     - Verify timezone settings match your region
     - Check that image files exist at specified paths
 
-## **Roadmap**
-
-### **Planned Features**
-
-- Web interface for easier management
-- Support for additional messaging platforms
-- Custom scheduling patterns
-- Database integration for message tracking
-- API endpoints for external integration
-- Custom azkar content library
 
 ## **System Architecture**
-
 The system follows a modular architecture:
 
 1. **Authentication Module** - Handles WhatsApp Web login
