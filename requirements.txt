@@ -1,0 +1,8 @@
+selenium==4.10.0
+flask==2.3.3
+pydantic==2.4.2
+schedule==1.2.0
+pytz==2023.3
+psutil==5.9.5
+webdriver-manager==3.8.6
+configparser>=5.2.0
